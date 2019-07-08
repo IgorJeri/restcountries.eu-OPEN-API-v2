@@ -30,11 +30,14 @@
                         "x-example": "South Africa"
                     }
                 ],
-                "responses": {
+              "responses": {
                     "200": {
                         "description": "OK",
                         "schema": {
-                            "$ref": "#/definitions/Countries"
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/GetAll"
+                            }
                         }
                     }
                 },
