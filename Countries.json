@@ -34,10 +34,7 @@
                     "200": {
                         "description": "OK",
                         "schema": {
-                            "type": "object",
-                            "items": {
-                                "$ref": "#/definitions/Countries"
-                            }
+                            "$ref": "#/definitions/Countries"
                         }
                     }
                 },
